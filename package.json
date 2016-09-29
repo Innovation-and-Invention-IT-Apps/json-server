@@ -47,7 +47,7 @@
     "test": "npm run test:cli && npm run test:server && standard",
     "test:cli": "cross-env NODE_ENV=test mocha -R spec test/cli/*.js",
     "test:server": "cross-env NODE_ENV=test mocha -R spec test/server/*.js",
-    "start": "node bin",
+    "start": "node bin --watch db.json",
     "prepush": "npm t",
     "build": "babel src -d lib"
   },

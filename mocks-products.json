@@ -1,0 +1,145 @@
+
+Product Catalog API response - URL, Attribute, HATEOAS - standard followed
+
+    {
+    	"_embedded": {
+
+    		"products": [
+
+    			{
+    				"id": 223322117656312,
+    				"urnId": "sd-wan",
+    				"name": "SD WAN",
+    				"discriptionHtml": "<p>Software-defined wide area networking (SD-WAN) is the next evolution of private networking.<\/p>",
+    				"productType": "Network",
+    				"createdAt": "2016-09-22T14:25:08-03:00",
+    				"updatedAt": "2016-09-22T14:25:08-03:00",
+    				"displayScope": ["web", "mobile"],
+    				"variants": [
+					    {
+								"id": "08911238777811",
+								"productId": 223322117656312,
+								"name": "SD-WAN PREMIUM HA",
+								"sku": "SDWANPREMIUMHA",
+								"createdAt": "2016-09-22T13:34:03-02:00",
+								"updatedAt": "2016-09-22T13:34:03-02:00",
+								"displayPosition": 1,
+								"servicePlan": "premium",
+								"serviceVendor": "versa",
+								"serviceTransport": "customer",
+								"securityPkg": "1",
+								"cpe": "standard",
+								"haServicePlan": "premium",
+								"haServiceVendor": "versa",
+								"haServiceTransport": "ctl",
+								"haSecurityPkg": "1",
+								"haCpe": "standard",
+								"tier1Support": "1",
+								 "_links": {
+									 "self": {
+									 "href": "http://localhost:4444/v1/productVariants/variant/08911238777811"
+									}
+							   }
+    				    },
+					    {
+								"id": "08911238777812",
+								"productId": 223322117656312,
+								"name": "SD-WAN PREMIUM",
+								"sku": "SDWANPREMIUM",
+								"createdAt": "2016-09-22T13:34:03-02:00",
+								"updatedAt": "2016-09-22T13:34:03-02:00",
+								"displayPosition": 1,
+								"servicePlan": "premium",
+								"serviceVendor": "versa",
+								"serviceTransport": "customer",
+								"securityPkg": "1",
+								"cpe": "standard",
+								"haServicePlan": "",
+								"haServiceVendor": "",
+								"haServiceTransport": "",
+								"haSecurityPkg": "0",
+								"haCpe": "",
+								"tier1Support": "1",
+								 "_links": {
+									 "self": {
+									 "href": "http://localhost:4444/v1/productVariants/variant/08911238777812"
+									}
+							   }
+    				    },
+					    {
+								"id": "08911238777813",
+								"productId": 223322117656312,
+								"name": "SD-WAN BASIC HA",
+								"sku": "SDWANBASICHA",
+								"createdAt": "2016-09-22T13:34:03-02:00",
+								"updatedAt": "2016-09-22T13:34:03-02:00",
+								"displayPosition": 1,
+								"servicePlan": "basic",
+								"serviceVendor": "versa",
+								"serviceTransport": "customer",
+								"securityPkg": "1",
+								"cpe": "standard",
+								"haServicePlan": "basic",
+								"haServiceVendor": "versa",
+								"haServiceTransport": "ctl",
+								"haSecurityPkg": "1",
+								"haCpe": "standard",
+								"tier1Support": "1",
+								 "_links": {
+									 "self": {
+									 "href": "http://localhost:4444/v1/productVariants/variant/08911238777813"
+									}
+							   }
+    				    },
+                        {
+								"id": "08911238777814",
+								"productId": 223322117656312,
+								"name": "SD-WAN BASIC",
+								"sku": "SDWANBASIC",
+								"createdAt": "2016-09-22T13:34:03-02:00",
+								"updatedAt": "2016-09-22T13:34:03-02:00",
+								"displayPosition": 1,
+								"servicePlan": "basic",
+								"serviceVendor": "versa",
+								"serviceTransport": "customer",
+								"securityPkg": "1",
+								"cpe": "standard",
+								"haServicePlan": "",
+								"haServiceVendor": "",
+								"haServiceTransport": "",
+								"haSecurityPkg": "",
+								"haCpe": "",
+								"tier1Support": "1",
+								 "_links": {
+									 "self": {
+									 "href": "http://localhost:4444/v1/productVariants/variant/08911238777814"
+									}
+							   }
+    				    }						
+					],
+				"_links": {
+					"self": {
+						"href": "http://localhost:4444/v1/products/223322117656312"
+					}
+				}					
+    			}
+
+    		]
+    	},
+
+    	"_links": {
+
+    		"self": {
+    			"href": "http://localhost:4444/v1/products"
+    		},
+    		"search": [
+			         {   "href": "http://localhost:4444/v1/products/search?q=<fieldName>&value={value}" }
+			],
+                  
+    		"next": {
+    			"href": "http://localhost:4444/v1/products?offset=2&limit=3"
+    		}
+			
+
+    	}
+    }

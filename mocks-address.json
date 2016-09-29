@@ -1,0 +1,64 @@
+
+
+Address Validation Request
+URL : http://localhost:4444/v1/address/validate/civic ( POST )
+
+
+{
+	"AddressValidationRequest": 
+	{
+		"clientId": "GeoDevTest",
+		"addressLine1": "93 Centernnial B1vd ",
+		"locality": "Highlands Ranch ",
+		"stateOrProvince": "CO",
+		"postCode": "80126"
+	}
+}
+
+
+Address Validation Response 
+
+{
+
+    "AddressValidationResponse" : {
+	
+	"trackingId": "Tracking-id:1234",
+	"overallDuration": "Completed",
+	"result": "Completed",
+			"censusMatchLevel": "0",
+			"postalDirectoryMatchLevel": "0",
+			"deliveryConfirmationCode": "Y",
+			"civicAddresses": [
+				{
+					"streetAddress": "93 Centernnial B1vd",
+					"streetNrFirst": "93",
+					"streetName": "Centernnial",
+					"streetType": "B1vd",
+					"Locality": [
+						"LITTLELETON"
+					],
+					"stateOrProvince": "CO",
+					"postCode": "80126",
+					"source": "TRILLIUM"
+				}
+			],
+			"county": "DOUGLAS",
+			"metropolitanStatisticalArea": "DENVAR CO",
+			"GeoPoint": {
+				"source": "TRILLIUM",
+				"latitude": "39.561461",
+				"longitude": "-104.9919",
+				"coordinateLevel": "1",
+				"accuracy": "1"
+			}
+   },
+   "_links": 
+   {
+      "self": {
+         "href": "http://localhost:4444/v1/address/validate/civic"
+      },
+      "payments": {
+         "href": "http://localhost:4444/v1/payments/options"
+      }
+    }
+}

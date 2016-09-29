@@ -1,0 +1,434 @@
+{
+	"Product-Catalog": [
+		{
+			"_embedded": {
+
+				"products": [
+
+					{
+						"id": 223322117656312,
+						"urnId": "sd-wan",
+						"name": "SD WAN",
+						"discriptionHtml": "<p>Software-defined wide area networking (SD-WAN) is the next evolution of private networking.<\/p>",
+						"productType": "Network",
+						"createdAt": "2016-09-22T14:25:08-03:00",
+						"updatedAt": "2016-09-22T14:25:08-03:00",
+						"displayScope": ["web", "mobile"],
+						"variants": [
+							{
+									"id": "08911238777811",
+									"productId": 223322117656312,
+									"name": "SD-WAN PREMIUM HA",
+									"sku": "SDWANPREMIUMHA",
+									"createdAt": "2016-09-22T13:34:03-02:00",
+									"updatedAt": "2016-09-22T13:34:03-02:00",
+									"displayPosition": 1,
+									"servicePlan": "premium",
+									"serviceVendor": "versa",
+									"serviceTransport": "customer",
+									"securityPkg": "1",
+									"cpe": "standard",
+									"haServicePlan": "premium",
+									"haServiceVendor": "versa",
+									"haServiceTransport": "ctl",
+									"haSecurityPkg": "1",
+									"haCpe": "standard",
+									"tier1Support": "1",
+									 "_links": {
+										 "self": {
+										 "href": "http://localhost:4444/v1/productVariants/variant/08911238777811"
+										}
+								   }
+							},
+							{
+									"id": "08911238777812",
+									"productId": 223322117656312,
+									"name": "SD-WAN PREMIUM",
+									"sku": "SDWANPREMIUM",
+									"createdAt": "2016-09-22T13:34:03-02:00",
+									"updatedAt": "2016-09-22T13:34:03-02:00",
+									"displayPosition": 1,
+									"servicePlan": "premium",
+									"serviceVendor": "versa",
+									"serviceTransport": "customer",
+									"securityPkg": "1",
+									"cpe": "standard",
+									"haServicePlan": "",
+									"haServiceVendor": "",
+									"haServiceTransport": "",
+									"haSecurityPkg": "0",
+									"haCpe": "",
+									"tier1Support": "1",
+									 "_links": {
+										 "self": {
+										 "href": "http://localhost:4444/v1/productVariants/variant/08911238777812"
+										}
+								   }
+							},
+							{
+									"id": "08911238777813",
+									"productId": 223322117656312,
+									"name": "SD-WAN BASIC HA",
+									"sku": "SDWANBASICHA",
+									"createdAt": "2016-09-22T13:34:03-02:00",
+									"updatedAt": "2016-09-22T13:34:03-02:00",
+									"displayPosition": 1,
+									"servicePlan": "basic",
+									"serviceVendor": "versa",
+									"serviceTransport": "customer",
+									"securityPkg": "1",
+									"cpe": "standard",
+									"haServicePlan": "basic",
+									"haServiceVendor": "versa",
+									"haServiceTransport": "ctl",
+									"haSecurityPkg": "1",
+									"haCpe": "standard",
+									"tier1Support": "1",
+									 "_links": {
+										 "self": {
+										 "href": "http://localhost:4444/v1/productVariants/variant/08911238777813"
+										}
+								   }
+							},
+							{
+									"id": "08911238777814",
+									"productId": 223322117656312,
+									"name": "SD-WAN BASIC",
+									"sku": "SDWANBASIC",
+									"createdAt": "2016-09-22T13:34:03-02:00",
+									"updatedAt": "2016-09-22T13:34:03-02:00",
+									"displayPosition": 1,
+									"servicePlan": "basic",
+									"serviceVendor": "versa",
+									"serviceTransport": "customer",
+									"securityPkg": "1",
+									"cpe": "standard",
+									"haServicePlan": "",
+									"haServiceVendor": "",
+									"haServiceTransport": "",
+									"haSecurityPkg": "",
+									"haCpe": "",
+									"tier1Support": "1",
+									 "_links": {
+										 "self": {
+										 "href": "http://localhost:4444/v1/productVariants/variant/08911238777814"
+										}
+								   }
+							}						
+						],
+					"_links": {
+						"self": {
+							"href": "http://localhost:4444/v1/products/223322117656312"
+						}
+					}					
+					}
+
+				]
+			},
+
+			"_links": {
+
+				"self": {
+					"href": "http://localhost:4444/v1/products"
+				},
+				"search": [
+						 {   "href": "http://localhost:4444/v1/products/search?q=<fieldName>&value={value}" }
+				],
+					  
+				"next": {
+					"href": "http://localhost:4444/v1/products?offset=2&limit=3"
+				}
+				
+
+			}
+		}
+	],
+	"Address-Validation": [
+		{
+			"AddressValidationResponse" : {
+			
+			"trackingId": "Tracking-id:1234",
+			"overallDuration": "Completed",
+			"result": "Completed",
+					"censusMatchLevel": "0",
+					"postalDirectoryMatchLevel": "0",
+					"deliveryConfirmationCode": "Y",
+					"civicAddresses": [
+						{
+							"streetAddress": "93 Centernnial B1vd",
+							"streetNrFirst": "93",
+							"streetName": "Centernnial",
+							"streetType": "B1vd",
+							"Locality": [
+								"LITTLELETON"
+							],
+							"stateOrProvince": "CO",
+							"postCode": "80126",
+							"source": "TRILLIUM"
+						}
+					],
+					"county": "DOUGLAS",
+					"metropolitanStatisticalArea": "DENVAR CO",
+					"GeoPoint": {
+						"source": "TRILLIUM",
+						"latitude": "39.561461",
+						"longitude": "-104.9919",
+						"coordinateLevel": "1",
+						"accuracy": "1"
+					}
+		   },
+		   "_links": 
+		   {
+			  "self": {
+				 "href": "http://localhost:4444/v1/address/validate/civic"
+			  },
+			  "payments": {
+				 "href": "http://localhost:4444/v1/payments/options"
+			  }
+			}
+		}
+	],
+	"Product-Catalog-1": [
+		{
+		  "_embedded": {
+			"products": [
+			  {
+				"productName": "product 1",
+				"productId": "PROD124",
+				"_links": {
+				  "self": {
+					"href": "http://localhost:4444/product/PROD124"
+				  },
+				  "templates": {
+						"href": "http://localhost:4444/product/templates/PROD124"
+				  }
+				}
+			  },
+			  {
+				"productName": "product 2",
+				"productId": "PROD345",
+				"_links": {
+				  "self": {
+					"href": "http://localhost:4444/product/PROD345"
+				  },
+				  "templates": {
+						"href": "http://localhost:4444/product/templates/PROD345"
+				  }
+				}
+			  }
+			]
+		  },
+		  "_links": {
+			"self": {
+			  "href": "http://localhost:4444/catalogue"
+			},
+			"search": {
+					"href": "http://localhost:4444/catalogue/search/productById/{id}"
+			},
+			"pagination": {
+					"href": "http://localhost:4444/catalogue/{pageNum}"
+			}
+		  }
+		}
+	],
+	"Pricing":[
+		{
+		  "productId": "PROD124",
+		  "price": "120.00",
+		  "currency": "USD",
+		  "_links": {
+			"self": {
+			  "href": "http://localhost:4444/pricing/PROD124"
+			},
+			"product": {
+			  "href": "http://localhost:4444/product/PROD124"
+			}
+		  }
+		}
+	],
+	"User": [
+		{
+		  "firstName": "firstName",
+		  "lastName": "lastName",
+		  "state": "authenticated",
+		  "_links": {
+			"self": {
+			  "href": "http://localhost:4444/user/USER1234"
+			},
+			"enterpriseInfo": {
+			  "href": "http://localhost:4444/enterprise/USER1234"
+			},
+			"cartInfo": {
+			  "href": "http://localhost:4444/carts/USER1234"
+			},
+			"userLocation": {
+			  "href": "http://localhost:4444/location/USER1234"
+			},
+			"paymentHistory": {
+			  "href": "http://localhost:4444/payments/USER1234"
+			}
+		  }
+		}
+	],
+	"Product-Variant": [
+		{
+		  "vairantId": "PLAN123",
+		  "variantName": "SDWAN-BASIC",
+		  "productId": "PROD1234",
+		  "href" : "http://localhost:4444/variant/file/PLAN123",
+		  "features" :{
+			   "featureName" : "feature1",
+			   "featureId" : "FEATURE123",
+			   "transport" : "CTL"
+			},
+		  "_links": {
+			"self": {
+			  "href": "http://localhost:4444/{templates|variant}/PLAN123"
+			},
+			"billingAddress": {
+			  "href": "http://localhost:4444/address/billing"
+			},
+			"shippingAddress": {
+			  "href": "http://localhost:4444/address/shipping"
+			},
+			"serviceAddress": {
+			  "href": "http://localhost:4444/address/billing"
+			},
+			"validateAddress": {
+			  "href": "http://localhost:4444/address/validate"
+			}
+		  }
+		}
+	],
+	"Validate-Address": [
+		{
+		  "isAddressValid": "1",
+		  "verificationType": "civic",
+		  "message" : "It is valid Address",
+		  "_links": {
+			"self": {
+			  "href": "http://localhost:4444/validate/address"
+			},
+			"payments": {
+			  "href": "http://localhost:4444/payments/options"
+			}
+		  }
+		}
+	],
+	"Cart": [
+		{
+		  "_embedded": {
+			"inventoryItems": [
+			  {
+				"lineItem": "PROD123",
+				"itemName" : "Product 1",
+				"quantity": "2",
+				"_links": {
+				  "self": {
+					"href": "http://localhost:4444/product/PROD124"
+				  }
+				}
+			  }
+			]
+		  },
+		  "_links": {
+			"self": {
+			  "href": "http://localhost:4444/cart/view/CART124"
+			},
+			"total": {
+					"href": "http://localhost:4444/cart/total/CART124"
+			},
+			"updateOrSave": {
+					"href": "http://localhost:4444/cart/save/{cartId}"
+			},
+			"paymentOptions": {
+					"href": "http://localhost:4444/payments/options"
+			}  
+		  }
+		}
+	],
+	"Payment": [
+		{
+		  "cartTotal": "1000",
+		  "cartTotalwithTax": "1020",
+		  "currency" : "USD",
+		  "status": "paid",
+		  "cartId" : "CART123",
+		  "paymentType" :"CC",
+		  "_links": {
+			"self": {
+			  "href": "http://localhost:4444/payments/PAY123"
+			},
+			"paymentOptions": {
+					"href": "http://localhost:4444/payments/options"
+			},
+			"checkout": {
+					"href": "http://localhost:4444/payment/CART123"
+			},
+			"history": {
+					"href": "http://localhost:4444/payments/USER134"
+			}
+		  }
+		}
+	],
+	"Order": [
+		{
+		  "_embedded": {
+			"orders": [
+			  {
+				"orderId": "ORD123",
+				"status" : "completed",
+				"orderDate": "2016/09/22",
+				"_links": {
+				  "self": {
+					"href": "http://localhost:4444/orders/ORD123"
+				  }
+				}
+			  }
+			]
+		  },
+		  "_links": {
+			"self": {
+			  "href": "http://localhost:4444/orders"
+			},
+			"submit": {
+					"href": "http://localhost:4444/orders/submit/CART123"
+			}
+		  }
+		}
+	],
+	"Offerings": [
+		{
+			"serviceTkey" : "PCO2D40",
+			"offeringTkey" : "CPMRS446209-PMRS6D212",
+			"title" : "OH GOD",
+			"date" : "06-05-2016",
+			"offeringInfo" : {
+					"_internalId" : "CPMRS446209",
+					"service" : "Broadband-On Demand",
+					"mindOfferingId" : "CPMRS446209",
+					"offeringType" : "FEATURE",
+					"offeringId" : "CPMRS446209-PMRS6D212"
+			},
+			"photos" : [
+					{
+							"did" : "2318223",
+							"role" : "TWCPhoto_1920x1080"
+					},
+					{
+							"did" : "2285982",
+							"role" : "DishPhoto_1440x1080"
+					},
+					{
+							"did" : "2285981",
+							"role" : "DishPhoto_1600x900"
+					}
+			],
+			"genres" : {
+					"genre1" : "drama",
+					"genre2" : "dance",
+					"genre3" : "movie"
+			}
+		}
+	]
+}
